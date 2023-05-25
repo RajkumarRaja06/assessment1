@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SET 4</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Image</h2>
+    <img src="/4.jpg" alt="Example Image" />
+
+    <h2>OPTIONS</h2>
+    <input type="radio" id="option1" name="radio" value="option1" />
+    <label for="option1">Option 1</label><br />
+
+    <input type="radio" id="option2" name="radio" value="option2" />
+    <label for="option2">Option 2</label><br />
+
+    <input type="radio" id="option3" name="radio" value="option3" />
+    <label for="option3">Option 3</label><br />
+
+    <h2>Dropdown Select Menu</h2>
+    <select>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+      <option value="option5">Option 5</option>
+    </select>
+
+    <h2>Dropdown Select Menu with Default Option</h2>
+    <select>
+      <option value="default" selected disabled>Select an option</option>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+      <option value="option5">Option 5</option>
+    </select>
+
+    <h2>Video Player</h2>
+    <video controls>
+      <source src="#" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
